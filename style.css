@@ -1,0 +1,38 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(173, 157, 180);
+  color: #333;
+  font-family: "calibri", "sans-serif";
+  font-weight: 400;
+}
+
+.container {
+  background-color: #fff;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 5px;
+  flex: 0 0 60%;
+}
+
+.btnIncrease,
+.btnReset,
+.btnDecrease {
+  background-color: rgb(152, 118, 167);
+  color: #333;
+  font-size: 1.3rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+h1 {
+  font-size: 3rem;
+}
